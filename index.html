@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Cornet Lilou" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>TD1 - Exercice 1</title>
+    <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/td1.css" />
+    <script defer="defer" src="js/td1.js"></script>
+  </head>
+
+  <body onload="onLoad();">
+    <h1 id="title" class="firstOrLast">Une balise h1.</h1>
+    <h2>Une balise h2.</h2>
+    <h2 class="firstOrLast">Une deuxieme balise h2.</h2>
+    <h3 class="firstOrLast">Une balise h3.</h3>
+    <h3>Une deuxieme balise h3.</h3>
+    <h3>Une troisieme balise h3.</h3>
+    <div>
+      <p>Une<span> balise </span>p.</p>
+    </div>
+    <div>
+      <p>Une<span> deuxieme balise </span>p.</p>
+    </div>
+    <div id="update-date"></div>
+    <p id="nbjoursrestants" onclick="getNbDays()">
+      il reste xxx jours avant le 19 juillet 2023
+    </p>
+    <p id="clock"></p>
+    <div id="graphic-clock"></div>
+    <form>
+      <input type="text" id="text" name="text" class="white" />
+    </form>
+    <aside>
+      <p class="img" onclick="scrollingMenu(event)"></p>
+      <p>Informations Générales</p>
+      <br />
+      <li>Accueil</li>
+      <li>CV</li>
+      <p class="img" onclick="scrollingMenu(event)"></p>
+      <p>Recherche</p>
+      <br />
+      <p class="img" onclick="scrollingMenu(event)"></p>
+      <p>Enseignement</p>
+      <br />
+      <li>Département Informatique</li>
+      <li>LP SIL</li>
+      <li>Polytech Nice-Sophia</li>
+      <li>Autres</li>
+      <li>Stages et Projets</li>
+      <p class="img" onclick="scrollingMenu(event)"></p>
+      <p>Personnel</p>
+    </aside>
+  </body>
+</html>

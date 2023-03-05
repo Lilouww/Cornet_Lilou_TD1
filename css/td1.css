@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#graphic-clock p {
+  display: inline;
+}
+
+.white {
+  background-color: rgb(255, 255, 255);
+}
+
+.green {
+  background-color: rgb(150, 255, 150);
+}
+
+.red {
+  background-color: rgb(255, 150, 150);
+}
+
+aside p {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: underline;
+  display: none;
+}
